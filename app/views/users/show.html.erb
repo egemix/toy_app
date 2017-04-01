@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<p> Content
+
+  <%= @user.microposts.first.content %>
+
+</p>
+
 <p>
   <strong>Name:</strong>
   <%= @user.name %>
